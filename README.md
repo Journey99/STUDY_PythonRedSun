@@ -1,1 +1,1 @@
-# ALGORITHM (with Codeit)
+# AIFFEL STUDY - PYTHON RED SUN
