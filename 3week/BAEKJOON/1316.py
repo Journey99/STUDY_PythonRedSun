@@ -12,8 +12,6 @@ for i in range(n):
     word = input()
     for idx, w in enumerate(word):
 
-        # print(idx,w)
-
         if idx != len(word)-1:
             if w != word[idx+1]:
                 if w in word[idx+1:]:
