@@ -5,14 +5,15 @@ https://www.acmicpc.net/problem/11729
 
 '''
 
-def hanoi(n, frm, to, ot):
+n = int(input())
+
+def hanoi(n, frm, ot, to):
     if n == 1:
         print(frm, to)
-        return
+    else:
+        hanoi(n-1, frm, to, ot)
+        print(frm, to)
+        hanoi(n-1, ot, frm, to)
 
-    hanoi(n-1, frm, ot, to)
-    print(frm, to)
-    hanoi(n-1, ot, to, frm)
-
-n = int(input())
-print((2**n))
+print(2**n - 1)
+hanoi(n,1,2,3)
