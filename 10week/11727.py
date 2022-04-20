@@ -1,6 +1,6 @@
 '''
 
-백준 - https://pacific-ocean.tistory.com/194
+백준 - https://www.acmicpc.net/problem/11727
 
 
 n 개수
